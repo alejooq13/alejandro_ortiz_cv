@@ -1,7 +1,7 @@
 import React from 'react';
-import BarLayaut from '../layaunts/bar_layaut';
-import SpaceItems from '../layaunts/space_items';
-import ItemsIcono from '../components/typeItems2';
+import BarLayaut from 'layaunts/bar_layaut';
+import SpaceItems from 'layaunts/space_items';
+import ItemsIcono from 'components/typeItems2';
 
 const Hobbies = () => {
   return (

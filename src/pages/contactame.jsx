@@ -1,7 +1,7 @@
 import React from 'react';
-import BarLayaut from '../layaunts/bar_layaut';
-import Inputs from '../components/inputs';
-import useFormData from '../hooks/useFormData';
+import BarLayaut from 'layaunts/bar_layaut';
+import Inputs from 'components/inputs';
+import useFormData from 'hooks/useFormData';
 
 const Contactame = () => {
   const { form, updateFormData } = useFormData();

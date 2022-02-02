@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './styles/styles.css';
-import Index from './pages';
-import Contactame from './pages/contactame';
-import Academic from './pages/academic';
-import Work from './pages/work';
-import Hobbies from './pages/hobbies';
-import Certificate from './pages/certificate';
-import Correo from './pages/correo';
+import 'styles/styles.css';
+import Index from 'pages';
+import Contactame from 'pages/contactame';
+import Academic from 'pages/academic';
+import Work from 'pages/work';
+import Hobbies from 'pages/hobbies';
+import Certificate from 'pages/certificate';
+import Correo from 'pages/correo';
 
 function App() {
   return (

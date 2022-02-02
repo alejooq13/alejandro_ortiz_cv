@@ -1,8 +1,8 @@
 import React from 'react';
-import ItemsImagen from '../components/typeItems1';
-import ItemsIcono from '../components/typeItems2';
-import BarLayaut from '../layaunts/bar_layaut';
-import SpaceItems from '../layaunts/space_items';
+import ItemsImagen from 'components/typeItems1';
+import ItemsIcono from 'components/typeItems2';
+import BarLayaut from 'layaunts/bar_layaut';
+import SpaceItems from 'layaunts/space_items';
 
 const Academic = () => {
   return (

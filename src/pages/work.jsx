@@ -1,7 +1,7 @@
 import React from 'react';
-import BarLayaut from '../layaunts/bar_layaut';
-import SpaceItems from '../layaunts/space_items';
-import ItemsImagen from '../components/typeItems1';
+import BarLayaut from 'layaunts/bar_layaut';
+import SpaceItems from 'layaunts/space_items';
+import ItemsImagen from 'components/typeItems1';
 
 const Work = () => {
   return (

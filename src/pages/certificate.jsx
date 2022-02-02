@@ -1,7 +1,7 @@
 import React from 'react';
-import BarLayaut from '../layaunts/bar_layaut';
-import ItemsImagen from '../components/typeItems1';
-import SpaceItems from '../layaunts/space_items';
+import BarLayaut from 'layaunts/bar_layaut';
+import ItemsImagen from 'components/typeItems1';
+import SpaceItems from 'layaunts/space_items';
 
 const Certificate = () => {
   return (

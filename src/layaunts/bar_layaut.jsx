@@ -1,6 +1,6 @@
 import React from 'react';
-import Horizontal from '../components/horizontalBar';
-import Footer from '../components/footer';
+import Horizontal from 'components/horizontalBar';
+import Footer from 'components/footer';
 
 const BarLayaut = ({ children }) => {
   return (
