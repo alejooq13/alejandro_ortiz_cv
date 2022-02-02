@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/styles.css';
 import Index from './pages';
 import Contactame from './pages/contactame';
@@ -6,7 +7,6 @@ import Work from './pages/work';
 import Hobbies from './pages/hobbies';
 import Certificate from './pages/certificate';
 import Correo from './pages/correo';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

@@ -9,24 +9,24 @@ const Footer = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-github fa-2x px-6  hover:text-sky-500 cursor-pointer'></i>
+          <i className='fab fa-github fa-2x px-6  hover:text-sky-500 cursor-pointer' />
         </a>
         <a href='/correo' target='_blank' rel='noopener noreferrer'>
-          <i class='fas fa-at fa-2x px-6 hover:text-sky-500 cursor-pointer'></i>
+          <i className='fas fa-at fa-2x px-6 hover:text-sky-500 cursor-pointer' />
         </a>
         <a
           href='https://wa.me/573177159586'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-whatsapp fa-2x px-6 hover:text-sky-500 cursor-pointer'></i>
+          <i className='fab fa-whatsapp fa-2x px-6 hover:text-sky-500 cursor-pointer' />
         </a>
         <a
           href='https://www.linkedin.com/in/alejooq13/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-linkedin fa-2x px-6 hover:text-sky-500 cursor-pointer'></i>
+          <i className='fab fa-linkedin fa-2x px-6 hover:text-sky-500 cursor-pointer' />
         </a>
       </div>
     </div>

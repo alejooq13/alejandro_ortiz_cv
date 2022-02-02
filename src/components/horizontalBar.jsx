@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Horizontal = () => {
@@ -13,6 +13,7 @@ const Horizontal = () => {
                 src='https://media-exp1.licdn.com/dms/image/C5603AQFZhNAcKbZI8g/profile-displayphoto-shrink_800_800/0/1641708296490?e=1647475200&v=beta&t=cdNCDScUyktW7Nf3kpPz3KjPrHj-ZBEVYqw1cim2Ju4'
                 width={70}
                 height={70}
+                alt=''
               />
             </div>
             <div className='flex flex-col'>
@@ -77,7 +78,7 @@ const Horizontal = () => {
               to='/contactame'
             >
               <div className='flex flex-col items-center relative cursor-pointer'>
-                <i class='far fa-comments fa-2x'></i>
+                <i className='far fa-comments fa-2x' />
                 <span className='text-xs font-semibold'>Contáctame</span>
                 <div className='animate-ping w-1.5 h-1.5 bg-blue-800 rounded-full absolute -top-1 -right-1 m-auto duration-200' />
                 <div className=' w-1.5 h-1.5 bg-blue-800 rounded-full absolute -top-1 -right-1 m-auto shadow-lg' />
@@ -96,7 +97,7 @@ const Horizontal = () => {
               }
               to='/'
             >
-              <i class='fas fa-home fa-2x'></i>
+              <i className='fas fa-home fa-2x' />
             </NavLink>
             <NavLink
               className={({ isActive }) =>
@@ -106,7 +107,7 @@ const Horizontal = () => {
               }
               to='/academic'
             >
-              <i class='fas fa-graduation-cap fa-2x'></i>
+              <i className='fas fa-graduation-cap fa-2x' />
             </NavLink>
             <NavLink
               className={({ isActive }) =>
@@ -116,7 +117,7 @@ const Horizontal = () => {
               }
               to='/work'
             >
-              <i class='fas fa-briefcase fa-2x'></i>
+              <i className='fas fa-briefcase fa-2x' />
             </NavLink>
             <NavLink
               className={({ isActive }) =>
@@ -126,7 +127,7 @@ const Horizontal = () => {
               }
               to='/hobbies'
             >
-              <i class='fas fa-gamepad fa-2x'></i>
+              <i className='fas fa-gamepad fa-2x' />
             </NavLink>
             <NavLink
               className={({ isActive }) =>
@@ -136,7 +137,7 @@ const Horizontal = () => {
               }
               to='/certificate'
             >
-              <i class='fas fa-check-square fa-2x'></i>
+              <i className='fas fa-check-square fa-2x' />
             </NavLink>
           </ul>
         </div>

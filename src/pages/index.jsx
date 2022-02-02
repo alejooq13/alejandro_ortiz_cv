@@ -1,8 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import BarLayaut from '../layaunts/bar_layaut';
 import SpaceItems from '../layaunts/space_items';
 import ItemsIcono from '../components/typeItems2';
-import { NavLink } from 'react-router-dom';
 
 const Index = () => {
   return (
